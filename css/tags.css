@@ -27,6 +27,9 @@
     -ms-transition: all 0.3s;
     transition: all 0.3s;
   }
+  .tag-cloud a:before {
+    content: "🔖";
+  }
   .tag-cloud a:hover {
     color: #ff7242 !important;
     -webkit-transform: scale(1.2);
